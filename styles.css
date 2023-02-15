@@ -30,7 +30,7 @@ body {
 }
 
 .menu {
-    display: flex;
+    display:flex;
     justify-content: center;
 }
 
@@ -91,8 +91,8 @@ button {
     width: 100%;
     height: 100%;
     background: #bf48ad;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     clip-path: circle(600px at right 800px);
     z-index: -1;
 }
