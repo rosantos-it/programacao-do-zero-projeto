@@ -1,10 +1,10 @@
-let caixaimagem = document.querySelector(".big-glass")
-let circulo = document.querySelector(".circle")
+let imagem = document.querySelector(".starbucks")
+let circulo = document.querySelector(".circulo")
 
 function trocaImagem(endereco) {
-    caixaimagem.src = endereco
+    imagem.src = endereco
 }
 
 function trocaCor(cor) {
     circulo.style.background = cor
-} 
+}

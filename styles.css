@@ -7,22 +7,22 @@
 
 body {
     padding-top: 20px;
-    padding-left: 100px;
     padding-right: 100px;
+    padding-left: 100px;
 }
 
-.content {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.conteudo {
+    width: 100%; /* largura */
+    display: flex; /* permite que alteremos a posição dos elementos na tela */
+    justify-content: space-between; /* permite justificar / alinhar os componentes na horizontal */
+    align-items: center; /* permite alinhar os componentes na vertical*/
 }
 
-.text-box {
+.caixa-texto {
     width: 600px;
 }
 
-.image-box {
+.caixa-imagem {
     width: 600px;
     display: flex;
     justify-content: flex-end;
@@ -34,11 +34,10 @@ body {
     justify-content: center;
 }
 
-h1 {
+h2 {
     color: #333;
     font-size: 60px;
     font-weight: 500;
-    margin-top: -100px;
 }
 
 span {
@@ -49,15 +48,22 @@ span {
 
 p {
     font-size: 16px;
+    /* tamanho da fonte */
 }
 
 button {
     background: #017143;
-    color: #fff;
+    /* background -> fundo do elemento */
+    color: white;
+    /* cor do texto */
     border-radius: 40px;
+    /* arredondamento da borda */
     border: none;
+    /* borda do elemento */
     cursor: pointer;
+    /* cursor do mouse */
     padding: 10px;
+    /* espaçamento interno */
     margin-top: 20px;
 }
 
@@ -65,31 +71,28 @@ button {
     width: 80px;
 }
 
-.big-glass {
-    width: 230px;
-    margin-top: -80px;
+.starbucks {
+    width: 340px;
 }
 
-.small-glass {
+.botao-menu {
     width: 60px;
     transition: 1s;
     cursor: pointer;
     margin: 10px;
-    margin-top: -100px;
 }
 
-.small-glass:hover {
-transform: translateY(-25px);
+.botao-menu:hover {
+    transform: translateY(-25px);
 }
 
-.circle {
+.circulo {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #017143;
+    background: #bf48ad;
     top: 0;
     left: 0;
     clip-path: circle(600px at right 800px);
     z-index: -1;
 }
-
