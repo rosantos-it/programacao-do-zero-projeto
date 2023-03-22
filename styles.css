@@ -15,7 +15,7 @@ body {
     width: 100%; /* largura */
     display: flex; /* permite que alteremos a posição dos elementos na tela */
     justify-content: space-between; /* permite justificar / alinhar os componentes na horizontal */
-    align-items: center; /* permite alinhar os componentes na vertical*/
+    align-items: center; /* permite alinhar os componentes na vertical */
 }
 
 .caixa-texto {
